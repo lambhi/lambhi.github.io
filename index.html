@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt Game</title>
+        <link rel="shortcut icon" href="http://res.publicdomainfiles.com/pdf_view/70/13929484212093.png">
+        <link rel="stylesheet" href="treasurehunt.css">
+        <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero-image">
+        <h1 id="top">Treasure Hunt</h1>
+        <br>
+        <div id= "pic">
+            <img src="https://cdn.pixabay.com/photo/2017/11/07/23/55/pirate-2928821_960_720.jpg" alt="pirate treasure" style="width:300px">
+        </div>
+        <br>
+    <div id= "bodytext">
+        <h2>Rules of the Game</h2>
+        <ol>
+            <li>Dont talk about the rules of Treasure Hunt</li>
+            <li>Click correct square treasure will appear - You Win!</li>
+            <li>Click wrong square bomb will appear - You Die! </li>
+            <li>The object of the game is to find the treasure before the bomb
+            </li>
+        </ol>
+        <br>
+        <table id="table">
+            <tr>
+                <td id=0 onclick="treasure(0)">?</td>
+                <td id=1 onclick="treasure(1)">?</td>
+                <td id=2 onclick="treasure(2)">?</td>
+            </tr>
+            <tr>
+                <td id=3 onclick="treasure(3)">?</td>
+                <td id=4 onclick="treasure(4)">?</td>
+                <td id=5 onclick="treasure(5)">?</td>
+            </tr>
+            <tr>
+                <td id=6 onclick="treasure(6)">?</td>
+                <td id=7 onclick="treasure(7)">?</td>
+                <td id=8 onclick="treasure(8)">?</td>
+            </tr>
+        </table>
+        <br>
+        <button type="button" onclick="location.reload()">Restart Game</button>
+        <br>
+        <br>
+        <br>
+        <h3>Turn Counter: <span id="counter"> 0 </span></h3>
+        <br>
+        <br>
+        <footer>Created by Jennifer, Hillary, and Diem
+    </div>
+        <br>
+        <a href="#top">Back to top</a>
+        <br>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <br>
+        <br>
+        <br>
+        </footer>
+        <br>
+        <script type="text/javascript" src="treasurehunt.js">
+        </script>
+        </div>
+    </body>
+</html>

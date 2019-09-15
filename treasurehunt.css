@@ -1,0 +1,45 @@
+*{
+    font-family: 'Chilanka', cursive;
+    margin: 0
+
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.hero-image{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/06/16/32/pirate-ship-1719396_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top{
+    display: flex;
+    justify-content: center;
+}
+#pic{
+    display: flex;
+    justify-content: center;
+}
+#bodytext{
+    color: white;
+}
+#table{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+button:hover{
+    color: #00BFFF;
+}
+button {
+    margin: 0 auto;
+    display: block;
+}
+td{
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
